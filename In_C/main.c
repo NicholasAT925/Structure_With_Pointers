@@ -28,6 +28,7 @@ int main(){
     ptr_today->year = 22;
 
     printf("\nTodays date is %d/%d/%.d\n\n", ptr_today->month, ptr_today->day, ptr_today->year);
+    printf("\nTodays date is %d/%d/%.d\n\n", ptr_today->month, ptr_today->day, ptr_today->year);
     /* indirect access member of structure */
     datePtr = &secondDay;
     (*datePtr).day = 15;
@@ -48,6 +49,7 @@ int main(){
     *structPointer.p2 = 20;
     printf("a = %d *structPointer.p1 = %d\n", a, *structPointer.p1);
     printf("b = %d *structPointer.p2 = %d\n", b, *structPointer.p2);
+    
     return 0;
 }
 
