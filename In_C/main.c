@@ -35,6 +35,10 @@ int main(){
     (*datePtr).month = 4;
     (*datePtr).year = 22;
     printf("2nd day date is access through indirection and is = %d/%d/%d\n\n", (*datePtr).day, (*datePtr).month, (*datePtr).year);
+    /* printing and accessing the member dat using '->' operator */
+    printf("printing using the '->' operator\n");
+    printf("2nd day date is access through indirection and is = %d/%d/%d\n\n", datePtr->day, datePtr->month, datePtr->year);
+
     /* pointers in the struct */
     int a = 100, b;
 
