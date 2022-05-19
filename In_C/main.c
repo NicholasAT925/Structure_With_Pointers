@@ -23,7 +23,6 @@ int main(){
     struct date today, secondDay, *ptr_today, *datePtr;
 
     ptr_today = &today;
-    
     ptr_today->day = 5;
     ptr_today->month = 6;
     ptr_today->year = 22;
